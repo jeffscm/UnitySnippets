@@ -26,6 +26,7 @@ The end result will be:
 
 # More to come, like:
 
+## Observer Pattern to existing objects (Example: Slider.Value)
 ## MVC Pattern
 ## Best Singleton usage in Unity
 ## UI Snippets for ScrollRect performance, Buttons

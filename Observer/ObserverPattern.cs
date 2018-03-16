@@ -1,4 +1,4 @@
-// 2018 - Author : Jefferson Scomaca - Observer Pattern
+// 2018 - Author : Jefferson Scomacao - Observer Pattern
 // 
 // how to use:  
 // var f = new Observer<float>(0).OnChange ( (ff) => { Debug.Log(ff); } );

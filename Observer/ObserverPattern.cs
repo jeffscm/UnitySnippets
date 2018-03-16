@@ -1,23 +1,33 @@
 // 2018 - Author : Jefferson Scomaca - Observer Pattern
 // 
 // how to use:  
-// var f = new Observer<float>().OnChange ( (ff) => { Debug.Log(ff); } );
+// var f = new Observer<float>(0).OnChange ( (ff) => { Debug.Log(ff); } );
 // f.Value = 10f;
+
+using System;
 
 public class Observer<T>
 {
+
+    bool _reportValue = false;
+
+    public Observer(T defaultValue, bool reportInitialState = false)
+    {
+        _value = defaultValue;
+        _reportValue = reportInitialState;
+    }
 
     Action<T> _onChange;
 
     public Observer <T>OnChange(Action<T> a)
     {
         _onChange += a;
+        if (_reportValue)
+        {
+            _reportValue = false;
+            _onChange(_value);
+        }
         return this;
-    }
-
-    public void RemoveAction(Action<T> a)
-    {
-        _onChange -= a;
     }
 
     public void RemoveAll()
@@ -26,6 +36,7 @@ public class Observer<T>
     }
 
     T _value = default(T);
+
     public T Value
     {
         set

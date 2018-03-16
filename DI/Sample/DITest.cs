@@ -14,7 +14,7 @@ public class DITest : AppElement<Ammo> {
         GetDI().Reload();
     }
 
-	void Update () {
+    void Update () {
 		
         if (GetDI().Use())
         {
@@ -25,5 +25,5 @@ public class DITest : AppElement<Ammo> {
             Debug.Log("Empty Ammo, reload");
             GetDI().Reload();
         }
-	}
+    }
 }

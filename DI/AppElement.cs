@@ -1,4 +1,6 @@
-﻿using System.Collections;
+// 2018 - Author : Jefferson Scomacao - DI Pattern
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

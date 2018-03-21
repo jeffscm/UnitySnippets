@@ -2,7 +2,7 @@
 
 Collection of useful modern snippets to use in unity!
 
-The motivation for this repo is for Training in Generics, better code patterns/practices and smart use of the great coding language (C#).
+The motivation for this repo is for Training in Generics, better code patterns/practices and smart use of the great coding language (C#) together with a great tool (Unity)
 
 # ObserverPattern
 
@@ -31,7 +31,8 @@ The end result will be:
 ## Best Singleton usage in Unity
 ## UI Snippets for ScrollRect performance, Buttons
 ## Compiler directives
-## Bootloader for your App, fast
-## Sample projects
+## Bootloader for your App, fast stuff
+## how to use this stuff demos
+## and more...
 
 

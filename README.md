@@ -2,7 +2,14 @@
 
 Collection of useful modern snippets to use in unity!
 
-The motivation for this repo is for Training in Generics, better code patterns/practices and smart use of the great coding language (C#) together with a great tool (Unity)
+The motivation for this repo is for Training in Generics, better code patterns/practices and smart use of the great coding language (C#) together with a great tool (Unity).
+
+This collection can be used in your next project, remember to mention the source!
+
+# ========================================================
+# Next Item to be added: Unity and Html, love or hate?
+# Super responsive Unity UI AR Apps, yes it is possible
+# ========================================================
 
 # ObserverPattern
 

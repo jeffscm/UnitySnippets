@@ -6,10 +6,10 @@ The motivation for this repo is for Training in Generics, better code patterns/p
 
 This collection can be used in your next project, remember to mention the source!
 
-# ========================================================
+========================================================
 # Next Item to be added: Unity and Html, love or hate?
 # Super responsive Unity UI AR Apps, yes it is possible
-# ========================================================
+========================================================
 
 # ObserverPattern
 
